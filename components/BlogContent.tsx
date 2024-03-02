@@ -21,7 +21,7 @@ function BlogContent({ posts }: Props) {
 							pathname: `/post/${post?.slug?.current}`,
 							query: { slug: post?.slug?.current },
 						}}
-						key={post?._id}
+						key={post._id}
 					>
 						<div className="flex shadow-2xl m-10 flex-col md:flex-row gap-10  rounded-md rounded-tr-md rounded-br-md hover:shadow-md duration-200">
 							<div className="w-full md:w-3/5 group overflow-hidden rounded-tl-md rounded-bl-md relative">
@@ -42,7 +42,7 @@ function BlogContent({ posts }: Props) {
 									<div className="flex items-center gap-2">
 										{post?.categories.map((item) => (
 											<p
-												key={item?._id}
+												key={item._id}
 												className="text-xs uppercase text-[#ff7878] font-semibold"
 											>
 												{item?.title}

@@ -15,7 +15,6 @@ function Hero() {
 						</span>{" "}
 						Blog
 					</p>
-					<button className="btn text-white bg-[#ff7878]">Get Started</button>
 				</div>
 			</div>
 		</div>

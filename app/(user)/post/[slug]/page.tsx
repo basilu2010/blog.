@@ -67,7 +67,7 @@ const SlugPage = async ({ params: { slug } }: Props) => {
 					<p className="text-center tracking-wide text-sm">
 						{post?.author?.description}
 					</p>
-					<br />s
+					<br />
 					<div className="flex items-center gap-3">
 						<Link
 							href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}

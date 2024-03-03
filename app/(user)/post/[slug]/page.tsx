@@ -68,43 +68,6 @@ const SlugPage = async ({ params: { slug } }: Props) => {
 						{post?.author?.description}
 					</p>
 					<br />
-					<div className="flex items-center gap-3">
-						<Link
-							href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
-							target="blank"
-							className="w-10 h-10 bg-red-600 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
-						>
-							<FaYoutube />
-						</Link>
-						<Link
-							href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
-							target="blank"
-							className="w-10 h-10 bg-gray-500 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
-						>
-							<FaGithub />
-						</Link>
-						<Link
-							href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
-							target="blank"
-							className="w-10 h-10 bg-[#3e5b98] text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
-						>
-							<FaFacebookF />
-						</Link>
-						<Link
-							href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
-							target="blank"
-							className="w-10 h-10 bg-[#bc1888] text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
-						>
-							<FaInstagram />
-						</Link>
-						<Link
-							href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
-							target="blank"
-							className="w-10 h-10 bg-blue-500 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
-						>
-							<FaLinkedin />
-						</Link>
-					</div>
 				</div>
 			</div>
 			<div>
